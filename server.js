@@ -14,7 +14,7 @@ dotenv.config();
 // Middlewares
 //app.use(cors());
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://joyful-profiterole-fa9cb8.netlify.app',
     credentials: true,
 }));
   
